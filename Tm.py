@@ -126,7 +126,7 @@ def main():
     elif args.v >=2:
         out.insert(0, delimiter.join(header1+header2+header3+headerCond))
 
-    print(*out, sep="\n")
+    print("\n".join(out))
 
     # save the output
     if args.outfile:

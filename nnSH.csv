@@ -1,0 +1,48 @@
+# all lines starting with # or blank ones are ignored ,,,,,
+# the nearest neighbor parameters are taken out of J. SantaLucia's original publications,,,,,
+# only the W-C, single internal mismatch and dangling ends are valid here ,,,,,
+# thus the name 'S' ,,,,,
+#,,,,,
+# each table of nearest neighbor parameters contains a 6X6 grid,,,,,
+# without any interrupting comments,,,,,
+# the D in the nearest neighbor denotes position opposite to the dangling end,,,,,
+#,,,,,
+# each grid is for a different closing W-C pair, i.e., AT, TA, CG and GC ,,,,,
+# the parameter grid is tab delimited or comma delimited,,,,,
+#,,,,,
+# The nearest neighbors in the first column are 5'->3' ,,,,,
+# The nearest neighbors in the corresponding columns are 3'->5' ,,,,,
+#,,,,,
+# this table is for the enthalpy,,,,,
+#,,,,,
+#A/T,,,,,
+/,TA,TC,TG,TT,TD
+AA,1.2,2.3,-0.6,-7.9,-0.5
+AC,5.3,0.0,-8.4,0.7,4.7
+AG,-0.7,-7.8,-3.1,1.0,-4.1
+AT,-7.2,-1.2,-2.5,-2.7,-3.8
+AD,-2.9,-4.1,-4.2,-0.2,
+#,,,,,
+#T/A,,,,,
+/,AA,AC,AG,AT,AD
+TA,4.7,3.4,0.7,-7.2,-0.7
+TC,7.6,6.1,-8.2,1.2,4.4
+TG,3.0,-8.5,1.6,-0.1,-1.6
+TT,-7.9,1.0,-1.3,0.2,2.9
+TD,0.2,0.6,-1.1,-6.9,
+#,,,,,
+#C/G,,,,,
+/,GA,GC,GG,GT,GD
+CA,-0.9,1.9,-0.7,-8.5,-5.9
+CC,0.6,-1.5,-8.0,-0.8,-2.6
+CG,-4.0,-10.6,-4.9,-4.1,-3.2
+CT,-7.8,-1.5,-2.8,-5.0,-5.2
+CD,-3.7,-4.0,-3.9,-4.9,
+#,,,,,
+#G/C,,,,,
+/,CA,CC,CG,CT,CD
+GA,-2.9,5.2,-0.6,-8.2,-2.1
+GC,-0.7,3.6,-9.8,2.3,-0.2
+GG,0.5,-8.0,-6.0,3.3,-3.9
+GT,-8.4,5.2,-4.4,-2.2,-4.4
+GD,-6.3,-4.4,-5.1,-4.0,

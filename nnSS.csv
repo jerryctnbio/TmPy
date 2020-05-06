@@ -1,0 +1,48 @@
+# all lines starting with # or blank ones are ignored ,,,,,
+# the nearest neighbor parameters are taken out of J. SantaLucia's original publications,,,,,
+# only the W-C, single internal mismatch and dangling ends are valid here ,,,,,
+# thus the name 'S',,,,,
+#,,,,,
+# each table of nearest neighbor parameters contains a 6X6 grid,,,,,
+# without any interrupting comments,,,,,
+# the D in the nearest neighbor denotes position opposite to the dangling end,,,,,
+#,,,,,
+# each grid is for a different closing W-C pair, i.e., AT, TA, CG and GC ,,,,,
+# the parameter grid is tab delimited or comma delimited,,,,,
+#,,,,,
+# The nearest neighbors in the first column are 5'->3' ,,,,,
+# The nearest neighbors in the corresponding columns are 3'->5' ,,,,,
+#,,,,,
+# this table is for the entropy,,,,,
+#,,,,,
+#A/T,,,,,
+/,TA,TC,TG,TT,TD
+AA,1.7,4.6,-2.3,-22.2,-1.1
+AC,14.6,-4.4,-22.4,0.2,14.2
+AG,-2.3,-21.0,-9.5,0.9,-13.1
+AT,-20.4,-6.2,-8.3,-10.8,-12.6
+AD,-7.6,-13.0,-15.0,-0.5,
+#,,,,,
+#T/A,,,,,
+/,AA,AC,AG,AT,AD
+TA,12.9,8.0,0.7,-21.3,-0.8
+TC,20.2,16.4,-22.2,0.7,14.9
+TG,7.4,-22.7,3.6,-1.7,-3.6
+TT,-22.2,0.7,-5.3,-1.5,10.4
+TD,2.3,3.3,-1.6,-20.0,
+#,,,,,
+#C/G,,,,,
+/,GA,GC,GG,GT,GD
+CA,-4.2,3.7,-2.3,-22.7,-16.5
+CC,-0.6,-7.2,-19.9,-4.5,-7.4
+CG,-13.2,-27.2,-15.3,-11.7,-10.4
+CT,-21.0,-6.1,-8.0,-15.8,-15.0
+CD,-10.0,-11.9,-10.9,-13.8,
+#,,,,,
+#G/C,,,,,
+/,CA,CC,CG,CT,CD
+GA,-9.8,14.2,-1.0,-22.2,-3.9
+GC,-3.8,8.9,-24.4,5.4,-0.1
+GG,3.2,-19.9,-15.8,10.4,-11.2
+GT,-22.4,13.5,-12.3,-8.4,-13.1
+GD,-17.1,-12.6,-14.0,-10.9,

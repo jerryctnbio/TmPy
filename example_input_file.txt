@@ -1,4 +1,4 @@
-name	Seq1(5’-3’)	Seq2 (3’-5’)
+name	Seq1(5'->3')	Seq2 (3'->5')
 s201	AGCTGGTAAAG	
 s102	AGGTCCCGGTTAAAT	
 s3	CGCA	GCGT
